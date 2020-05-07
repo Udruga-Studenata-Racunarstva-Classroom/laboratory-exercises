@@ -1,0 +1,114 @@
+/*###BASE####*/
+* {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+html {
+  font-size: 22px;
+  font-family: 'Lato',sans-serif;
+} 
+body {
+  padding: 10px;
+}
+
+textarea {
+  height: 150px;
+  font-size: 1.5rem;
+}
+
+
+
+/*+++++NAVIGATION+++++*/
+
+.navbar {
+  margin: -10px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: flex;
+  background-color: green; 
+  justify-content: flex-end;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-box-flex: 2;
+          flex-grow: 2;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+.list-element {
+  color: green;
+}
+
+.list-element:focus {
+  cursor: pointer;
+}
+
+/*===TODOS===*/
+
+.section-todos{
+  height: 80vh;
+  overflow: scroll;
+}
+
+.todo-input {
+  margin-bottom: 20px;
+  float: right;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 2px 5px 5px gray;
+}
+.todo-element {
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 2px 5px 5px black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(230, 230, 230);
+}
+
+.remove-todo-btn {
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.remove-todo-btn:hover{
+  transform: scaleY(1.1);
+}
+
+.add-todo-btn {
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 40px;
+  border: none;
+  background-color: green;
+  color: white;
+  margin-top: 20px;
+}
+
+input[type="button"]:hover{
+  cursor: pointer;
+}
+
+
+.todo-content input{
+  background-color: red;
+  font-size: 2rem;
+  color: white;
+}

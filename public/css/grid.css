@@ -1,0 +1,25 @@
+/*+++++Positioning+++++*/
+
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+.col-1-of-3{
+  -webkit-box-flex: 0;
+          flex: 0 0 33%;
+}
+.col-2-of-3{
+  -webkit-box-flex: 0;
+          flex: 0 0 66%;
+}
+
